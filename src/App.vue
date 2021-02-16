@@ -12,7 +12,8 @@ import text2 from './components/HelloWorld.vue'
 export default {
   name: 'App',
   components: {
-    
+    text1 ,
+    text2 
   }
 }
 </script>
