@@ -25,12 +25,4 @@ export default {
   margin-top: 60px;
 }
 
-#styled-input {
-  height: 40px;
-  font-size: 20pt;
-}
-.styled-input label[for] {
-  height: 40px;
-  font-size: 20pt;
-}
 </style>

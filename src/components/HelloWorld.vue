@@ -8,7 +8,7 @@
     <input v-model="message" placeholder="Address 2" /><br />
     <input v-model="message" placeholder="City" />
     <select v-model="selected">
-      <option disabled value="selet any one">State</option>
+      <option disabled value="">State</option>
       <option>Maharastra</option>
       <option>Gujrat</option>
       <option>Goa</option>
@@ -33,6 +33,7 @@ export default {
   },
 };
 </script>
+
 
 <style scoped>
 a {
