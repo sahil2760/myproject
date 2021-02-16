@@ -1,6 +1,6 @@
 <template>
   <text1 msg1="Get Back to Living"/>
-  <img alt="Vue logo" src="./assets/logo.jpeg">
+  <v-img class="shrink mr-2" contains src="./assets/logo.jpeg" alt="Vue logo">
   <text2 msg2="Cyzplamovir should be available to everyone o needs it. Cant afford it? Enroll here to see if we can help."/>
 </template>
 
@@ -12,8 +12,7 @@ import text2 from './components/HelloWorld.vue'
 export default {
   name: 'App',
   components: {
-    text1 ,
-    text2 
+    
   }
 }
 </script>

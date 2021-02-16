@@ -1,11 +1,4 @@
 import { createApp } from 'vue'
+import App from './App.vue'
 
-
-const app= createApp({
-    data(){
-        return {msg1:'Cyzplamovir'
-    }}
-})
-createApp(app).mount('#app')
-
-
+createApp(App).mount('#app')
