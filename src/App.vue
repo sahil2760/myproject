@@ -1,16 +1,19 @@
 <template>
+  <text1 msg1="Get Back to Living"/>
   <img alt="Vue logo" src="./assets/logo.jpeg">
-  <HelloWorld msg="Get Back to Living"/>
-  <HelloWorld msg="Cyzplamovir ould be available to everyone o needs it. Cant afford it? Enroll here to see if we can help. "/>
+  <text2 msg2="Cyzplamovir should be available to everyone o needs it. Cant afford it? Enroll here to see if we can help."/>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import text1 from './components/HelloWorld.vue'
+import text2 from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    text1 ,
+    text2 
   }
 }
 </script>
@@ -21,7 +24,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
-  color: #2c3e50;
+  color: #2c55c5;
   margin-top: 60px;
 }
 

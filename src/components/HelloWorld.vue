@@ -1,12 +1,13 @@
 <template>
-  <h1>{{ msg }}</h1>
-  <h1>{{ msg }}</h1>
+  <h1>{{ msg1 }}</h1>
+  <h2>{{ msg2 }}</h2>
   <div class="hello">
-    <input v-model="message" id="styled-input" placeholder="First Name" />
-    <input v-model="message" placeholder="Last Name" /><br />
-    <input v-model="message" placeholder="Address 1" /><br />
+    <label class="label">Float label type auto</label>
+    <input v-model="message" id="styled-input" placeholder="First Name" required />
+    <input v-model="message" placeholder="Last Name" required/><br />
+    <input v-model="message" placeholder="Address 1" required/><br />
     <input v-model="message" placeholder="Address 2" /><br />
-    <input v-model="message" placeholder="City" />
+    <input v-model="message" placeholder="City" required/>
     <select v-model="selected">
       <option disabled value="">State</option>
       <option>Maharastra</option>
@@ -19,17 +20,22 @@
       <option>Meghalaya</option>
       <option>West Bengal</option>
     </select>
-    <input v-model="message" placeholder="Zipcode" /><br />
-    <input v-model="message" placeholder="Email" /> <br />
+    <input v-model="message" placeholder="Zipcode" required/><br />
+    <input v-model="message" placeholder="Email" required/> <br />
+    <p> Question?<a v-bind:href="www.google.com"> talk with us </a></p><br>
     <button v-on:click="enroll">Enroll</button>
   </div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "text1",
   props: {
     msg: String,
+  },
+  name1: "text2",
+  props1:{
+    msg1: String,
   },
 };
 </script>
@@ -37,6 +43,8 @@ export default {
 
 <style scoped>
 a {
-  color: #0175e2;
+  color: #8d4747;
 }
 </style>
+
+
