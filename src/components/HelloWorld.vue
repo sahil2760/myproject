@@ -11,7 +11,6 @@
     />
     <input
       v-model="message"
-      style="width: 47%"
       placeholder="Last Name"
       required
     /><br />
