@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.jpeg">
-    <HelloWorld msg="Cyzplamovir should be available to everyone who needs it. Can't afford it? Enroll to see if we can help."/>
+  <HelloWorld msg="Cyzplamovir should be available to everyone who needs it. Can't afford it? Enroll to see if we can help."/>
+    
   </div>
 </template>
 
@@ -23,6 +23,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 </style>
