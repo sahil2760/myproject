@@ -1,7 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.jpeg">
-  <HelloWorld msg="Get Back to Living"/>
-  <HelloWorld msg="Cyzplamovir ould be available to everyone o needs it. Cant afford it? Enroll here to see if we can help. "/>
+  <div id="app">
+  <HelloWorld msg="Cyzplamovir should be available to everyone who needs it. Can't afford it? Enroll to see if we can help."/>
+    
+  </div>
 </template>
 
 <script>
@@ -20,9 +21,8 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: left;
+  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 40px;
 }
-
 </style>
